@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Digimon">
+      <UniqueIdentifier>{6c156766-51db-4e7a-8bf9-d9732a448ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Digimon\DigimonHeaders">
+      <UniqueIdentifier>{7e3e987e-b469-4903-a224-8285fdee1b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasicConfigs">
+      <UniqueIdentifier>{cdae6542-172f-4809-82e2-e457f88a733d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasicConfigs\BasicConfigHeaders">
+      <UniqueIdentifier>{ed87f29f-0d58-45b5-b133-9df1dec9cc99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialInteraction.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalMonster.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatedDigimon.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Guilmon.h">
+      <Filter>Digimon\DigimonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renamon.h">
+      <Filter>Digimon\DigimonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseInfo.h">
+      <Filter>BasicConfigs\BasicConfigHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Digivolution.h">
+      <Filter>BasicConfigs\BasicConfigHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Patamon.h">
+      <Filter>Digimon\DigimonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Gabumon.h">
+      <Filter>Digimon\DigimonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackComponent.h">
+      <Filter>BasicConfigs\BasicConfigHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DodgeComponent.h">
+      <Filter>BasicConfigs\BasicConfigHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>BasicConfigs\BasicConfigHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="JyarimonBase.h">
+      <Filter>Digimon\DigimonHeaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialInteraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitalMonster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeToBeReWorked.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatedDigimon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseInfo.cpp">
+      <Filter>BasicConfigs</Filter>
+    </ClCompile>
+    <ClCompile Include="Digivolution.cpp">
+      <Filter>BasicConfigs</Filter>
+    </ClCompile>
+    <ClCompile Include="Guilmon.cpp">
+      <Filter>Digimon</Filter>
+    </ClCompile>
+    <ClCompile Include="Renamon.cpp">
+      <Filter>Digimon</Filter>
+    </ClCompile>
+    <ClCompile Include="Patamon.cpp">
+      <Filter>Digimon</Filter>
+    </ClCompile>
+    <ClCompile Include="Gabumon.cpp">
+      <Filter>Digimon</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackComponent.cpp">
+      <Filter>BasicConfigs</Filter>
+    </ClCompile>
+    <ClCompile Include="DodgeComponent.cpp">
+      <Filter>BasicConfigs</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementComponent.cpp">
+      <Filter>BasicConfigs</Filter>
+    </ClCompile>
+    <ClCompile Include="JyarimonBase.cpp">
+      <Filter>Digimon</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
