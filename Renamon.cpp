@@ -23,7 +23,7 @@ Renamon::Renamon()
 	Info.Stamina = Info.MaxStamina;
 
 	Info.MaxAttackPoints = Str * Agi * End * (Per + Lck);
-	Info.AttackPoints = Info.MaxAttackPoints;
+	Info.AttackPoints = Info.MaxAttackPoints / 2;
 
 	Info.Speed = Agi * (Int / Per);
 	Info.Armor = End * (Agi / Lck);

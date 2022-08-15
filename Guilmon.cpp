@@ -26,7 +26,7 @@ Guilmon::Guilmon()
 
 	// Attack points for using attacks
 	Info.MaxAttackPoints = Str * Agi * End * (Per + Lck);
-	Info.AttackPoints = Info.MaxAttackPoints;
+	Info.AttackPoints = Info.MaxAttackPoints / 2;
 
 	Info.ConversationLevel = Cha * Int;
 	Info.Speed = Agi * (Int / Per);
@@ -189,7 +189,7 @@ void Guilmon::Deleted()
 
 void Guilmon::Digivolve()
 {
-
+	
 }
 
 void Guilmon::UseCard()

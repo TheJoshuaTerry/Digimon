@@ -26,7 +26,7 @@ Patamon::Patamon()
 
 	// Attack points for using attacks
 	Info.MaxAttackPoints = Str * Agi * End * (Per + Lck);
-	Info.AttackPoints = Info.MaxAttackPoints;
+	Info.AttackPoints = Info.MaxAttackPoints / 2;
 
 
 	Info.Speed = Agi * (Int / Per);

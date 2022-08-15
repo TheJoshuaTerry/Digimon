@@ -758,7 +758,7 @@
        Overriding target "ComputeMetaGenInputs" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MetaGen.targets" with target "ComputeMetaGenInputs" from project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
        Overriding target "GetNativeManifest" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" with target "GetNativeManifest" from project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
        Overriding target "GetTargetPathWithTargetPlatformMoniker" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" with target "GetTargetPathWithTargetPlatformMoniker" from project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets".
-Build started 8/13/2022 1:36:51 PM.
+Build started 8/15/2022 6:28:06 PM.
 Logging verbosity is set to: Detailed.     1>Project "D:\Digimon Code\Digimon\Digimon.vcxproj" on node 2 (Build target(s)).
      1>Target "EnableIntermediateOutputPathMismatchWarning" skipped, due to false condition; ('$(RestoreProjectStyle)' == 'PackageReference') was evaluated as ('' == 'PackageReference').
      1>Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "D:\Digimon Code\Digimon\Digimon.vcxproj" (target "SetTelemetryEnvironmentVariables" depends on it):
@@ -781,10 +781,10 @@ Logging verbosity is set to: Detailed.     1>Project "D:\Digimon Code\Digimon\Di
      1>Target "SetTelemetryEnvironmentVariables" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets" from project "D:\Digimon Code\Digimon\Digimon.vcxproj" (target "Build" depends on it):
        Using "SetEnv" task from assembly "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll".
        Task "SetEnv"
-         VSTEL_SolutionSessionID={52966380-EB1C-4890-AB32-30CCB744EE16}
+         VSTEL_SolutionSessionID={423DB38F-82F6-4361-9DAD-775013559A45}
        Done executing task "SetEnv".
        Task "SetEnv"
-         VSTEL_CurrentSolutionBuildID=1994698708
+         VSTEL_CurrentSolutionBuildID=737399007
        Done executing task "SetEnv".
        Task "SetEnv"
          VSTEL_ProjectID={0be6721a-b9fc-4043-bf46-873ee18c6017}
@@ -1058,6 +1058,7 @@ Logging verbosity is set to: Detailed.     1>Project "D:\Digimon Code\Digimon\Di
        Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Digivolution.cpp' != 'Digivolution.cpp' and 'x64\Debug\' == 'x64\Debug\').
        Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'DodgeComponent.cpp' != 'DodgeComponent.cpp' and 'x64\Debug\' == 'x64\Debug\').
        Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Gabumon.cpp' != 'Gabumon.cpp' and 'x64\Debug\' == 'x64\Debug\').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Growlmon.cpp' != 'Growlmon.cpp' and 'x64\Debug\' == 'x64\Debug\').
        Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Guilmon.cpp' != 'Guilmon.cpp' and 'x64\Debug\' == 'x64\Debug\').
        Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'JyarimonBase.cpp' != 'JyarimonBase.cpp' and 'x64\Debug\' == 'x64\Debug\').
        Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'MovementComponent.cpp' != 'MovementComponent.cpp' and 'x64\Debug\' == 'x64\Debug\').
@@ -1094,7 +1095,7 @@ Logging verbosity is set to: Detailed.     1>Project "D:\Digimon Code\Digimon\Di
        Task "CL"
          Read Tracking Logs:
          	x64\Debug\Digimon.tlog\CL.read.1.tlog
-         Outputs for D:\DIGIMON CODE\DIGIMON\ATTACKCOMPONENT.CPP|D:\DIGIMON CODE\DIGIMON\BASEINFO.CPP|D:\DIGIMON CODE\DIGIMON\CODETOBEREWORKED.CPP|D:\DIGIMON CODE\DIGIMON\CREATEDDIGIMON.CPP|D:\DIGIMON CODE\DIGIMON\DIGITALMONSTER.CPP|D:\DIGIMON CODE\DIGIMON\DIGIVOLUTION.CPP|D:\DIGIMON CODE\DIGIMON\DODGECOMPONENT.CPP|D:\DIGIMON CODE\DIGIMON\GABUMON.CPP|D:\DIGIMON CODE\DIGIMON\GUILMON.CPP|D:\DIGIMON CODE\DIGIMON\JYARIMONBASE.CPP|D:\DIGIMON CODE\DIGIMON\MAIN.CPP|D:\DIGIMON CODE\DIGIMON\MOVEMENTCOMPONENT.CPP|D:\DIGIMON CODE\DIGIMON\PATAMON.CPP|D:\DIGIMON CODE\DIGIMON\RENAMON.CPP|D:\DIGIMON CODE\DIGIMON\SOCIALINTERACTION.CPP:
+         Outputs for D:\DIGIMON CODE\DIGIMON\ATTACKCOMPONENT.CPP|D:\DIGIMON CODE\DIGIMON\BASEINFO.CPP|D:\DIGIMON CODE\DIGIMON\CODETOBEREWORKED.CPP|D:\DIGIMON CODE\DIGIMON\CREATEDDIGIMON.CPP|D:\DIGIMON CODE\DIGIMON\DIGITALMONSTER.CPP|D:\DIGIMON CODE\DIGIMON\DIGIVOLUTION.CPP|D:\DIGIMON CODE\DIGIMON\DODGECOMPONENT.CPP|D:\DIGIMON CODE\DIGIMON\GABUMON.CPP|D:\DIGIMON CODE\DIGIMON\GROWLMON.CPP|D:\DIGIMON CODE\DIGIMON\GUILMON.CPP|D:\DIGIMON CODE\DIGIMON\JYARIMONBASE.CPP|D:\DIGIMON CODE\DIGIMON\MAIN.CPP|D:\DIGIMON CODE\DIGIMON\MOVEMENTCOMPONENT.CPP|D:\DIGIMON CODE\DIGIMON\PATAMON.CPP|D:\DIGIMON CODE\DIGIMON\RENAMON.CPP|D:\DIGIMON CODE\DIGIMON\SOCIALINTERACTION.CPP:
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\ATTACKCOMPONENT.OBJ
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\BASEINFO.OBJ
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\CODETOBEREWORKED.OBJ
@@ -1103,6 +1104,7 @@ Logging verbosity is set to: Detailed.     1>Project "D:\Digimon Code\Digimon\Di
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGIVOLUTION.OBJ
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DODGECOMPONENT.OBJ
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GABUMON.OBJ
+         	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GROWLMON.OBJ
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GUILMON.OBJ
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\JYARIMONBASE.OBJ
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MOVEMENTCOMPONENT.OBJ
@@ -1110,16 +1112,16 @@ Logging verbosity is set to: Detailed.     1>Project "D:\Digimon Code\Digimon\Di
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\RENAMON.OBJ
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\SOCIALINTERACTION.OBJ
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MAIN.OBJ
-         main.cpp will be compiled because D:\Digimon Code\Digimon\main.cpp was modified at 8/13/2022 1:36:51 PM.
+         main.cpp will be compiled because D:\Digimon Code\Digimon\main.cpp was modified at 8/15/2022 6:28:06 PM.
          Outputs for D:\DIGIMON CODE\DIGIMON\MAIN.CPP:
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MAIN.OBJ
          Write Tracking Logs:
          	x64\Debug\Digimon.tlog\CL.write.1.tlog
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=1076
+           VS_UNICODE_OUTPUT=1548
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp
          Tracking command:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\Digimon Code\Digimon\x64\Debug\Digimon.tlog" /r "D:\DIGIMON CODE\DIGIMON\MAIN.CPP" /b MSBuildConsole_CancelEvent3d4a3b45d47a4e789c9c97ece11dccdf  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\Digimon Code\Digimon\x64\Debug\Digimon.tlog" /r "D:\DIGIMON CODE\DIGIMON\MAIN.CPP" /b MSBuildConsole_CancelEventf9e2285017d5448cacaa461798bfb659  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp
          main.cpp
        Done executing task "CL".
      1>Done building target "ClCompile" in project "Digimon.vcxproj".
@@ -1237,11 +1239,11 @@ Logging verbosity is set to: Detailed.     1>Project "D:\Digimon Code\Digimon\Di
          	x64\Debug\Digimon.tlog\link.write.1.tlog
          Read Tracking Logs:
          	x64\Debug\Digimon.tlog\link.read.1.tlog
-         Outputs for D:\DIGIMON CODE\DIGIMON\X64\DEBUG\ATTACKCOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\BASEINFO.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\CODETOBEREWORKED.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\CREATEDDIGIMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGITALMONSTER.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGIVOLUTION.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DODGECOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GABUMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GUILMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\JYARIMONBASE.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MAIN.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MOVEMENTCOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\PATAMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\RENAMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\SOCIALINTERACTION.OBJ:
+         Outputs for D:\DIGIMON CODE\DIGIMON\X64\DEBUG\ATTACKCOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\BASEINFO.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\CODETOBEREWORKED.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\CREATEDDIGIMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGITALMONSTER.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGIVOLUTION.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DODGECOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GABUMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GROWLMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GUILMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\JYARIMONBASE.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MAIN.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MOVEMENTCOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\PATAMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\RENAMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\SOCIALINTERACTION.OBJ:
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGIMON.EXE
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGIMON.ILK
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGIMON.PDB
-         Inputs for D:\DIGIMON CODE\DIGIMON\X64\DEBUG\ATTACKCOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\BASEINFO.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\CODETOBEREWORKED.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\CREATEDDIGIMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGITALMONSTER.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGIVOLUTION.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DODGECOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GABUMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GUILMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\JYARIMONBASE.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MAIN.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MOVEMENTCOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\PATAMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\RENAMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\SOCIALINTERACTION.OBJ:
+         Inputs for D:\DIGIMON CODE\DIGIMON\X64\DEBUG\ATTACKCOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\BASEINFO.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\CODETOBEREWORKED.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\CREATEDDIGIMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGITALMONSTER.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGIVOLUTION.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DODGECOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GABUMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GROWLMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GUILMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\JYARIMONBASE.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MAIN.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MOVEMENTCOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\PATAMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\RENAMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\SOCIALINTERACTION.OBJ:
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\KERNEL32.LIB
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\USER32.LIB
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UM\X64\GDI32.LIB
@@ -1262,6 +1264,7 @@ Logging verbosity is set to: Detailed.     1>Project "D:\Digimon Code\Digimon\Di
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGIVOLUTION.OBJ
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DODGECOMPONENT.OBJ
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GABUMON.OBJ
+         	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GROWLMON.OBJ
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GUILMON.OBJ
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\JYARIMONBASE.OBJ
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MOVEMENTCOMPONENT.OBJ
@@ -1277,9 +1280,9 @@ Logging verbosity is set to: Detailed.     1>Project "D:\Digimon Code\Digimon\Di
          	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.33.31629\LIB\X64\VCRUNTIMED.LIB
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UCRT\X64\UCRTD.LIB
          	D:\DIGIMON CODE\DIGIMON\X64\DEBUG\VC143.PDB
-         Source compilation required: input D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MAIN.OBJ is newer than output D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGIMON.PDB.
+         Source compilation required: input D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MAIN.OBJ is newer than output D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGIMON.EXE.
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=1368
+           VS_UNICODE_OUTPUT=1964
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Digimon Code\Digimon\x64\Debug\Digimon.exe" /INCREMENTAL /ILK:"x64\Debug\Digimon.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Digimon Code\Digimon\x64\Debug\Digimon.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Digimon Code\Digimon\x64\Debug\Digimon.lib" /MACHINE:X64 x64\Debug\AttackComponent.obj
          x64\Debug\BaseInfo.obj
          x64\Debug\CodeToBeReWorked.obj
@@ -1288,6 +1291,7 @@ Logging verbosity is set to: Detailed.     1>Project "D:\Digimon Code\Digimon\Di
          x64\Debug\Digivolution.obj
          x64\Debug\DodgeComponent.obj
          x64\Debug\Gabumon.obj
+         x64\Debug\Growlmon.obj
          x64\Debug\Guilmon.obj
          x64\Debug\JyarimonBase.obj
          x64\Debug\MovementComponent.obj
@@ -1296,7 +1300,7 @@ Logging verbosity is set to: Detailed.     1>Project "D:\Digimon Code\Digimon\Di
          x64\Debug\SocialInteraction.obj
          x64\Debug\main.obj
          Tracking command:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\Digimon Code\Digimon\x64\Debug\Digimon.tlog" /r "D:\DIGIMON CODE\DIGIMON\X64\DEBUG\ATTACKCOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\BASEINFO.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\CODETOBEREWORKED.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\CREATEDDIGIMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGITALMONSTER.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGIVOLUTION.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DODGECOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GABUMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GUILMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\JYARIMONBASE.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MAIN.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MOVEMENTCOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\PATAMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\RENAMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\SOCIALINTERACTION.OBJ" /b MSBuildConsole_CancelEventb7a252ca3d61478295166363f6c71c3f  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"D:\Digimon Code\Digimon\x64\Debug\Digimon.exe" /INCREMENTAL /ILK:"x64\Debug\Digimon.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Digimon Code\Digimon\x64\Debug\Digimon.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Digimon Code\Digimon\x64\Debug\Digimon.lib" /MACHINE:X64 x64\Debug\AttackComponent.obj
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i "D:\Digimon Code\Digimon\x64\Debug\Digimon.tlog" /r "D:\DIGIMON CODE\DIGIMON\X64\DEBUG\ATTACKCOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\BASEINFO.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\CODETOBEREWORKED.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\CREATEDDIGIMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGITALMONSTER.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DIGIVOLUTION.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\DODGECOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GABUMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GROWLMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\GUILMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\JYARIMONBASE.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MAIN.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\MOVEMENTCOMPONENT.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\PATAMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\RENAMON.OBJ|D:\DIGIMON CODE\DIGIMON\X64\DEBUG\SOCIALINTERACTION.OBJ" /b MSBuildConsole_CancelEvent5ebf72c13d3247bf99ac8af080864f08  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"D:\Digimon Code\Digimon\x64\Debug\Digimon.exe" /INCREMENTAL /ILK:"x64\Debug\Digimon.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Digimon Code\Digimon\x64\Debug\Digimon.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Digimon Code\Digimon\x64\Debug\Digimon.lib" /MACHINE:X64 x64\Debug\AttackComponent.obj
          x64\Debug\BaseInfo.obj
          x64\Debug\CodeToBeReWorked.obj
          x64\Debug\CreatedDigimon.obj
@@ -1304,6 +1308,7 @@ Logging verbosity is set to: Detailed.     1>Project "D:\Digimon Code\Digimon\Di
          x64\Debug\Digivolution.obj
          x64\Debug\DodgeComponent.obj
          x64\Debug\Gabumon.obj
+         x64\Debug\Growlmon.obj
          x64\Debug\Guilmon.obj
          x64\Debug\JyarimonBase.obj
          x64\Debug\MovementComponent.obj

@@ -134,6 +134,7 @@
     <ClInclude Include="Digivolution.h" />
     <ClInclude Include="DodgeComponent.h" />
     <ClInclude Include="Gabumon.h" />
+    <ClInclude Include="Growlmon.h" />
     <ClInclude Include="Guilmon.h" />
     <ClInclude Include="JyarimonBase.h" />
     <ClInclude Include="MovementComponent.h" />
@@ -151,6 +152,7 @@
     <ClCompile Include="Digivolution.cpp" />
     <ClCompile Include="DodgeComponent.cpp" />
     <ClCompile Include="Gabumon.cpp" />
+    <ClCompile Include="Growlmon.cpp" />
     <ClCompile Include="Guilmon.cpp" />
     <ClCompile Include="JyarimonBase.cpp" />
     <ClCompile Include="MovementComponent.cpp" />
